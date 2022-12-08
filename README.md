@@ -1,16 +1,15 @@
-# MVSC
-******************************************
-A Multi-View Sentiment Corpus (EACL 2017)
-
-Authors:
-* Debora Nozza, University of Milano-Bicocca (debora.nozza@disco.unimib.it)
-* Elisabetta Fersini, University of Milano-Bicocca (fersini@disco.unimib.it)
-* Enza Messina, University of Milano-Bicocca (messina@disco.unimib.it)
-******************************************
+# Multi View Sentiment Corpus (MSVC)
 
 The Multi-View Sentiment Corpus (MVSC) consists of a set of 3000 tweets 
-that has been annotated by considering different views related to the same post: 
-subjectivity/objectivity, sentiment polarity, implicitness/explicitness, presence of irony and emotion.
+that has been labelled by **3 annotators** considering different views related to the same post: 
+* subjectivity/objectivity
+*  sentiment polarity
+*  implicitness/explicitness
+*  presence of irony 
+*  emotion
+
+**All the labels are given for each annotator!**
+
 Moreover, each emoji of a tweet (if present) has been labelled as positive,
 negative, neutral or topic-related. This corpus has been published at EACL 2017, [click here to read the paper](https://aclanthology.org/E17-1026/). 
 
@@ -49,6 +48,11 @@ Licensing
 
 All of the data from Twitter (tweet_id, tweet_text, user_id) is covered by Twitter's Terms of Service:
 https://dev.twitter.com/terms/api-terms
+
+Authors:
+* Debora Nozza, University of Milano-Bicocca (debora.nozza@disco.unimib.it)
+* Elisabetta Fersini, University of Milano-Bicocca (fersini@disco.unimib.it)
+* Enza Messina, University of Milano-Bicocca (messina@disco.unimib.it)
 
 
 If you decide to use this dataset, please cite:
